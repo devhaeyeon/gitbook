@@ -4,6 +4,7 @@
 * ECMA
   * [\[JS\] filter](ecma/js-filter.md)
   * [\[JS\] slice](ecma/js-slice.md)
+  * [\[JS\] javascript assign vs jquery extend](ecma/js-javascript-assign-vs-jquery-extend.md)
   * [\[ES6\] 클래스](ecma/es6.md)
   * [\[ES6\] 화살표 함수](ecma/es6-1.md)
   * [\[ES6\] const , let](ecma/es6-const-let.md)
@@ -21,5 +22,5 @@
   * [\[리액트\] 컴포넌트의 유형](undefined-2/undefined-1.md)
 * [Vue](vue/README.md)
   * vue 도입
-* [\[JS\] javascript assign vs jquery extend](js-javascript-assign-vs-jquery-extend.md)
+* [\[JS\] Array.prototype.map\(\)](js-array.prototype.map.md)
 
