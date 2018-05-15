@@ -57,13 +57,34 @@ String 및 Number객체가 아닌 문자열과 숫자의 경우 slice는 문자�
 새 요소가 두 배열 중 하나에 추가되면 다른 배열은 영향을 받지 않음.
 
 ```javascript
+var arr = [
+  { id: 1 , subTitle:'제목1' },
+  { id: 2 , subTitle:'제목2' },
+  { id: 3 , subTitle:'제목3' },
+  { id: 4 , subTitle:'제목4' },
+  { id: 5 , subTitle:'제목5' },
+  { id: 6 , subTitle:'제목6' },
+  { id: 7 , subTitle:'제목7' },
+  { id: 8 , subTitle:'제목8' },
+];
 
-// 슬라이스를 사용하여 내 차에서 새 차를 만듭니다.var myHonda = { color: 'red', wheels: 4, engine: { cylinders: 4, size: 2.2 } };var myCar = [myHonda, 2, 'cherry condition', 'purchased 1997'];var newCar = myCar.slice(0, 2);// 내 자동차, 새 자동차 및 혼다의 색상 값을 표시합니다.// 두 배열에서 모두 참조됩니다.console.log('myCar = ' + myCar.toSource());console.log('newCar = ' + newCar.toSource());console.log('myCar[0].color = ' + myCar[0].color);console.log('newCar[0].color = ' + newCar[0].color);// myHonda의 색상을 변경합니다.myHonda.color = 'purple';console.log('The new color of my Honda is ' + myHonda.color);// 두 배열에서 참조 된 myHonda의 색상을 표시합니다.console.log('myCar[0].color = ' + myCar[0].color);console.log('newCar[0].color = ' + newCar[0].color);
+var arrNewList = arr.slice(4,8);
+
+console.log(arrNewList);
+console.log(arr);
 ```
 
+![](../.gitbook/assets/2018-05-15-9.30.08.png)
 
+어떤 곳에 사용되는지 생각을 해보면
 
+기존의 배열을 가지고 와서 새로운 배열을 만들때, 
 
+게시글의 페이징 같은 걸 구현한다고 했을 때 어떤 부분부터 어떤 부분까지 불러올 때가 
+
+아닐까 싶습니다. 
+
+하지만 filter와 동일하게 새로운 배열을 만들어 내므로 기존 배열에 대한 값 유지는 가능해집니다. 
 
 
 
