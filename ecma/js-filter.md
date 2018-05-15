@@ -74,21 +74,21 @@ filter호출 시작 이후로 배열에 추가된 요소는 callback에 의해 �
 
 ```javascript
 var arr = [
-  { id: 15 },
-  { id: -1 },
-  { id: 0 },
-  { id: 3 },
-  { id: 12.2 },
-  { },
-  { id: null },
-  { id: NaN },
-  { id: 'undefined' }
+  { id: 1 , subTitle:'제목1' },
+  { id: 2 , subTitle:'제목2' },
+  { id: 3 , subTitle:'제목3' },
+  { id: 4 , subTitle:'제목4' },
+  { id: 5 , subTitle:'제목5' },
+  { id: 6 , subTitle:'제목6' },
+  { id: 7 , subTitle:'제목7' },
+  { id: 8 , subTitle:'제목8' },
 ];
 
 var invalidEntries = 0;
-
+var paramId=5;
 function filterByID(obj) {
-  if ('id' in obj && typeof(obj.id) === 'number' && !isNaN(obj.id)) {
+	console.log(obj.id);
+  if (obj.id!==paramId) {
     return true;
   } else {
     invalidEntries++;
@@ -101,18 +101,14 @@ var arrByID = arr.filter(filterByID);
 console.log(arr);
 
 console.log('Filtered Array\n', arrByID);
-// Filtered Array
-// [{ id: 15 }, { id: -1 }, { id: 0 }, { id: 3 }, { id: 12.2 }]
-
 console.log('Number of Invalid Entries = ', invalidEntries);
-// Number of Invalid Entries = 4
 ```
 
-![](../.gitbook/assets/2018-05-14-11.14.31.png)
+![](../.gitbook/assets/2018-05-15-9.21.28.png)
 
+위의 예시는 id가 5가 아닌 경우의 배열의 값을 출력하는 필터의 예시입니다. 
 
-
-
+조건에 해당하지 않는 경우의 배열값들을 받아오는 곳에도 쓸 수 있습니다. 
 
 
 
