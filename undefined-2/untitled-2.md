@@ -1,6 +1,6 @@
 # \[리액트\] children prop
 
-**children prop **
+**children prop** 
 
 porp 객체 안을 접근할 수 있는 프로퍼티!!
 
