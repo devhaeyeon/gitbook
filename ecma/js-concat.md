@@ -65,7 +65,7 @@ console.log(textList);
 console.log(addTextList);
 ```
 
-![](.gitbook/assets/2018-05-17-11.17.07.png)
+![](../.gitbook/assets/2018-05-17-11.17.07.png)
 
 
 
