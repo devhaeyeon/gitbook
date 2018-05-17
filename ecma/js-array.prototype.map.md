@@ -71,7 +71,7 @@ numbers는 변하지 않고,  new\_array는 새로운 배열을 리턴한 것을
 var kvArray = [{key:1, value:10}, {key:2, value:20}, {key:3, value: 30}];var reformattedArray = kvArray.map(function(obj){    var rObj = {};   rObj[obj.key] = obj.value;   return rObj;});
 ```
 
-![](.gitbook/assets/2018-05-17-10.13.08.png)
+![](../.gitbook/assets/2018-05-17-10.13.08.png)
 
 오브젝트들의 배열을 받아 각각의 오브젝트를 다른 형태로 재구성해 새로운 배열을 만듦니다.
 
@@ -81,7 +81,7 @@ var kvArray = [{key:1, value:10}, {key:2, value:20}, {key:3, value: 30}];var ref
 var map = Array.prototype.map;var a = map.call('Hello World', function(x) { return x.charCodeAt(0); });
 ```
 
-![](.gitbook/assets/2018-05-17-10.18.01.png)
+![](../.gitbook/assets/2018-05-17-10.18.01.png)
 
 &gt;&gt; 해당 코드는  mdn에 있는 예제인데, string내 각 Byte의 ASCII코드값을 요소로 가지는 배열을 얻는 방법을 보여줍니다.
 
@@ -117,7 +117,7 @@ console.log(str);
 console.log(new_array);
 ```
 
-![](.gitbook/assets/2018-05-17-10.32.12.png)
+![](../.gitbook/assets/2018-05-17-10.32.12.png)
 
 
 
