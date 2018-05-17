@@ -163,7 +163,7 @@ subclass에 constructor가 있다면 , "this"를 사용하기 전에 가장 먼�
 
 ES6 클래스 컴포넌트에 생성자가 있으면 super\(\)호출을 해야함.
 
-super를 통한 상위 클래스 호출
+**super를 통한 상위 클래스 호출**
 
 ```javascript
 class Product {
