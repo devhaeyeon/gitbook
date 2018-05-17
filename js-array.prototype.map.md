@@ -68,7 +68,56 @@ numbers는 변하지 않고,  new\_array는 새로운 배열을 리턴한 것을
 
 ```javascript
 
+var kvArray = [{key:1, value:10}, {key:2, value:20}, {key:3, value: 30}];var reformattedArray = kvArray.map(function(obj){    var rObj = {};   rObj[obj.key] = obj.value;   return rObj;});
 ```
+
+![](.gitbook/assets/2018-05-17-10.13.08.png)
+
+오브젝트들의 배열을 받아 각각의 오브젝트를 다른 형태로 재구성해 새로운 배열을 만듦니다.
+
+3\) map을 포괄적으로 사용하
+
+```text
+var map = Array.prototype.map;var a = map.call('Hello World', function(x) { return x.charCodeAt(0); });
+```
+
+![](.gitbook/assets/2018-05-17-10.18.01.png)
+
+&gt;&gt; 해당 코드는  mdn에 있는 예제인데, string내 각 Byte의 ASCII코드값을 요소로 가지는 배열을 얻는 방법을 보여줍니다.
+
+4\) querySelectorAll을 사용해서 수집된 객체들을 반복처리하는 예
+
+```markup
+<input type="checkbox" value="react" name="js">react
+<input type="checkbox" value="vue" name="js">vue
+<input type="checkbox" value="angular" name="js">angular
+```
+
+```javascript
+var elems = document.querySelectorAll('input[name=js]');
+var values = [].map.call(elems, function(obj) {
+  return obj.value;
+});
+
+console.log(values);
+```
+
+이 예제는 querySelectorAll을 사용해서 수집된 객체들을 어떻게 반복 처리하는지 보여줌.
+
+이  경우 input\[name=js\]인 요소들을 반환 합니다. 
+
+5\) map으로 문자열을 뒤집
+
+```javascript
+var str = '안녕하세요';
+var new_array=[].map.call(str, function(x) {
+  return x;
+}).reverse().join(''); 
+console.log(str);
+console.log(new_array);
+```
+
+![](.gitbook/assets/2018-05-17-10.32.12.png)
 
 
 
