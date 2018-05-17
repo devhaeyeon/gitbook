@@ -12,8 +12,8 @@
   * [\[ES6\] const , let](ecma/es6-const-let.md)
   * [\[ES6\] 객체 초기자\(Object Initializer\)](ecma/es6-object-initializer.md)
   * [\[ES6\] include 메서드](ecma/es6-include.md)
+  * [\[ES6\] spread 연산자\(전개 연산자\)](ecma/js-spread.md)
   * [\[ES6\] 구조 해체](ecma/es6-2.md)
-* [\[JS\] spread 연산자\(전개 연산자\)](js-spread.md)
 * 리액트
   * [\[리액트\] 이벤트 핸들러](undefined-2/untitled.md)
   * [\[리액트\] 제어되지 않는 컴포넌트](undefined-2/untitled-1/README.md)
