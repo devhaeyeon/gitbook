@@ -62,17 +62,6 @@ npm install eslint-config-airbnb
 
 끄고 싶은 것들은 rules에서 0 을 주면 됨.
 
-prettier에서 큰따옴표 대신 작은 따옴표를 사용하려면
-
-.prettierrc에서
-
-{  
-"singleQuote": true,  
-"trailingComma": "all"  
-}
-
-를 추가 함.
-
 참고: [https://velopert.com/3671](https://velopert.com/3671)
 
 
