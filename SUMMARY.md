@@ -19,12 +19,11 @@
   * [\[리액트\] 제어되지 않는 컴포넌트](undefined-2/untitled-1/README.md)
     * [\[리액트\] 바인딩](undefined-2/untitled-1/undefined.md)
   * [\[리액트\] children prop](undefined-2/untitled-2.md)
-  * [\[리액트\] props](undefined-2/props/README.md)
-    * Untitled
+  * [\[리액트\] props](undefined-2/props.md)
   * [\[리액트\] 컴포넌트를 만들 때 \(a.k.a 버튼\)](undefined-2/a.k.a.md)
   * [\[리액트\] 컴포넌트의 유형](undefined-2/undefined-1.md)
+* [react에서  eslint , prettier , airbnb 적용](react-eslint-prettier-airbnb.md)
 * [Vue](vue/README.md)
   * [vue 란 무엇일까](vue/undefined.md)
 * [\[ES6\] promise, 비동기](es6-promise.md)
-* [react에서  eslint , prettier , airbnb 적용](react-eslint-prettier-airbnb.md)
 
