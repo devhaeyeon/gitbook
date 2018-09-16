@@ -21,11 +21,7 @@ npm install --save prettier-eslint
 CMD + , \(환경 설정\) 열어서 작업 영역\(Workspace\)에 아래를 입
 
 ```javascript
-{ 
-"editor.formatOnSave": true, 
-"javascript.format.enable": false, 
-"prettier.eslintIntegration": true 
-}
+{ "editor.formatOnSave": true, "javascript.format.enable": false, "prettier.eslintIntegration": true }
 ```
 
 step4. eslint 세부 설정
