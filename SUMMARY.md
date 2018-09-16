@@ -36,3 +36,11 @@
 * [정석대로 마크업하기 : 네이버 회원 가입 약관](markup/undefined.md)
 * [input\[type=number\]일 때 화살표 숨기기](markup/input-type-number.md)
 
+## Think
+
+* [FT 교육 프로세스 \(지극히 주관적인\)](think/ft.md)
+* [sideProject](think/sideproject/README.md)
+  * [\[개인프로젝트:투두리스트\] 드디어 step을 밟다](think/sideproject/step.md)
+  * [\[개인프로젝트:투두리스트\] 화면설계](think/sideproject/undefined.md)
+  * [\[개인프로젝트:투두리스트\] 프로젝트에 들어가기 앞서 ...](think/sideproject/....md)
+
