@@ -6,7 +6,7 @@
 
 파라미로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환함.
 
-{% embed data="{\"url\":\"https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global\_Objects/Array/concat\",\"type\":\"link\",\"title\":\"Array.prototype.concat\(\)\",\"description\":\"concat\(\) 메서드는 인자로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환합니다.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png\",\"width\":600,\"height\":600,\"aspectRatio\":1}}" %}
+{% embed url="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global\_Objects/Array/concat" %}
 
 해당 페이지를 참고하여 정리하였습니다.
 

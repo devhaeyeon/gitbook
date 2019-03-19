@@ -2,7 +2,7 @@
 
 참고 : 해당 내용은 리액트 도움 닫기를 참고하여 내용을 기술 하였습니다. 
 
-{% embed data="{\"url\":\"https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global\_Objects/Array/filter\",\"type\":\"link\",\"title\":\"Array.prototype.filter\(\)\",\"description\":\"filter\(\) 메소드는 제공된 함수로 구현된 테스트를 통과하는 모든 요소가 있는 새로운 배열을 만듭니다.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png\",\"width\":600,\"height\":600,\"aspectRatio\":1}}" %}
+{% embed url="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global\_Objects/Array/filter" %}
 
 
 

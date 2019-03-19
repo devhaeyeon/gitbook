@@ -1,6 +1,6 @@
 # \[JS\] slice
 
-{% embed data="{\"url\":\"https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global\_Objects/Array/slice\",\"type\":\"link\",\"title\":\"Array.prototype.slice\(\)\",\"description\":\"slice\(\) 메소드는 어떤 배열의 begin부터 end까지\(end는 불포함\)에 대한 shallow copy를 새로운 배열 객체로 반환합니다. 원본 배열은 수정되지 않습니다.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png\",\"width\":600,\"height\":600,\"aspectRatio\":1}}" %}
+{% embed url="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global\_Objects/Array/slice" %}
 
 해당 문서를 참고하였습니다.
 

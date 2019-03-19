@@ -1,6 +1,6 @@
 # \[ES6\] spread 연산자\(전개 연산자\)
 
-{% embed data="{\"url\":\"https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread\_operator\",\"type\":\"link\",\"title\":\"전개 연산자\",\"description\":\"전개 연산자\(spread operator\)는 표현식\(expression\)은 2개 이상의 인수arguments\(함수 호출 용\)나 2개 이상의 요소elements\(배열 리터럴 용\) 또는 2개 이상의 변수\(비구조화 할당 용\)가 예상되는 곳에 확장될 수 있도록 합니다.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png\",\"width\":600,\"height\":600,\"aspectRatio\":1}}" %}
+{% embed url="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread\_operator" %}
 
 ECMAScript6길들이기 책들을 참고하여 정리 하였습니다. 
 

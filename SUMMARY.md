@@ -43,4 +43,5 @@
   * [\[개인프로젝트:투두리스트\] 드디어 step을 밟다](think/sideproject/step.md)
   * [\[개인프로젝트:투두리스트\] 화면설계](think/sideproject/undefined.md)
   * [\[개인프로젝트:투두리스트\] 프로젝트에 들어가기 앞서 ...](think/sideproject/....md)
+* [English](think/english.md)
 

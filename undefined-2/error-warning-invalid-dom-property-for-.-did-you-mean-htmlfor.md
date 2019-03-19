@@ -23,7 +23,7 @@ label을 마크업할 때처럼 리액트에 적용을 하였더니
 
 \(유.레.카 ...\)
 
-{% embed data="{\"url\":\"https://reactjs.org/docs/accessibility.html\",\"type\":\"link\",\"title\":\"Accessibility - React\",\"description\":\"A JavaScript library for building user interfaces\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reactjs.org/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://reactjs.org/logo-og.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed url="https://reactjs.org/docs/accessibility.html" %}
 
 자세한 접근성 관련 마크업 내용의 리액트는 위의 링크에서 확인하면 될 것 같다.
 
